@@ -1,5 +1,7 @@
 td, th {
 	border: 1px solid;
+  padding: 5px;
+  text-align: center;
   }
 
 body {
@@ -24,4 +26,31 @@ header {
 h1 {
   margin: 0;
   font-weight: normal;
+}
+
+#planets {
+  border-collapse: collapse;
+  margin: auto;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.5);
+}
+
+#planets th {
+  background-color: #0056b3;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#planets tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+#planets tr:hover {
+  background-color: #333333;
+}
+
+
+#planets td:first-child {
+  font-weight: bold;
+  color: #007bff;
 }
