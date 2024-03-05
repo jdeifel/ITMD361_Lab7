@@ -14,3 +14,14 @@ img{
   height: 100px;
 }
 
+header {
+  background: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
