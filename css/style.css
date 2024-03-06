@@ -5,8 +5,9 @@ td, th {
 
 h1 {
   color: white;
-  margin: auto;
+  margin: 0;
   font-weight: normal;
+  text-align: center;
 }
 
 body {
@@ -26,7 +27,6 @@ header {
   background: #007bff;
   color: #ffffff;
   padding: 20px;
-  text-align: center;
 }
 
 #planets {
